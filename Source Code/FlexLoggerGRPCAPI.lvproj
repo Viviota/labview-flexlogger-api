@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -23,7 +24,8 @@
 		</Item>
 		<Item Name="FlexLogger_gRPC.lvlib" Type="Library" URL="../FlexLogger_gRPC.lvlib"/>
 		<Item Name="grpc-lvsupport-release.lvlib" Type="Library" URL="/&lt;vilib&gt;/gRPC/LabVIEW gRPC Library/grpc-lvsupport-release.lvlib"/>
-		<Item Name="Startup_Source.vi" Type="VI" URL="../FlexLogger_gRPC/Startup_Source.vi"/>
+		<Item Name="API Tester.vi" Type="VI" URL="../FlexLogger_gRPC/API Tester.vi"/>
+		<Item Name="Simple Tester.vi" Type="VI" URL="../FlexLogger_gRPC/Simple Tester.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
