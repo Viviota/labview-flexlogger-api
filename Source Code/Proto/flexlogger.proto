@@ -1,8 +1,12 @@
+//Source Code from : https://github.com/ni/niflexlogger-automation-python
+//Copied protobuf files contents to this file.
+//After merging fixed few referencing of typedefs (TYPEDEF comment added to controls, TYPEDEF_REFERENCE_CHANGE commented on updated lines)
+
+
 syntax = "proto3";
 
-package flexlogger;
+package flexlogger;																									//later this "flexlogger" pacakage text is replaced with "national_instruments.flex_logger.automation.protocols" in labview auto generation tool
 //national_instruments.flex_logger.automation.protocols
-
 
 // Service interface for a server side test session.
 service TestSession {
@@ -39,7 +43,7 @@ message GetTestSessionStateRequest {
 // Response object for a get test session state request.
 message GetTestSessionStateResponse {
     // The state of the test session
-    TestSessionState test_session_state = 1;
+    TestSessionState test_session_state = 1;      																	//TYPEDEF_REFERENCE_CHANGE
 }
 
 // Request object for starting the test session.
@@ -92,7 +96,7 @@ message GetElapsedTestTimeResponse {
     double elapsed_test_time = 1;
 }
 
-enum TestSessionState {
+enum TestSessionState {																							//TYPEDEF
   // The test session is idle and ready to start.
   TEST_SESSION_STATE_IDLE = 0;
   // The test session is currently running.
@@ -131,19 +135,19 @@ service LoggingSpecificationDocument {
 // Request object for getting the log file base path
 message GetLogFileBasePathRequest {
     // The id for the logging specification document
-    ElementIdentifier document_identifier = 1;
+    ElementIdentifier document_identifier = 1;																		//TYPEDEF_REFERENCE_CHANGE
 }
 
 // Response object for a get log file base path request
 message GetLogFileBasePathResponse {
     // The log file base path
-    string log_file_base_path = 1;
+    string log_file_base_path = 1;																					//TYPEDEF_REFERENCE_CHANGE
 }
 
 // Request object for setting the log file base path
 message SetLogFileBasePathRequest {
     // The id for the logging specification document
-    ElementIdentifier document_identifier = 1;
+    ElementIdentifier document_identifier = 1;																		//TYPEDEF_REFERENCE_CHANGE
     // The log file base path
     string log_file_base_path = 2;
 }
@@ -155,7 +159,7 @@ message SetLogFileBasePathResponse {
 // Request object for getting the log file name
 message GetLogFileNameRequest {
     // The id for the logging specification document
-    ElementIdentifier document_identifier = 1;
+    ElementIdentifier document_identifier = 1;																		//TYPEDEF_REFERENCE_CHANGE
 }
 
 // Response object for a get log file name request
@@ -167,7 +171,7 @@ message GetLogFileNameResponse {
 // Request object for setting the log file name
 message SetLogFileNameRequest {
     // The id for the logging specification document
-    ElementIdentifier document_identifier = 1;
+    ElementIdentifier document_identifier = 1;																		//TYPEDEF_REFERENCE_CHANGE
     // The log file base path
     string log_file_name = 2;
 }
@@ -186,7 +190,7 @@ message TestProperty {
 // Request object for getting all test properties
 message GetTestPropertiesRequest {
     // The id for the logging specification document
-    ElementIdentifier document_identifier = 1;
+    ElementIdentifier document_identifier = 1;																		//TYPEDEF_REFERENCE_CHANGE
 }
 
 // Response object for getting all test properties
@@ -198,7 +202,7 @@ message GetTestPropertiesResponse {
 // Request object for getting a specific test property
 message GetTestPropertyRequest {
     // The id for the logging specification document
-    ElementIdentifier document_identifier = 1;
+    ElementIdentifier document_identifier = 1;																		//TYPEDEF_REFERENCE_CHANGE
     // The name of the test property to get
     string property_name = 2;
 }
@@ -212,7 +216,7 @@ message GetTestPropertyResponse {
 // Request object for setting a specific test property
 message SetTestPropertyRequest {
     // The id for the logging specification document
-    ElementIdentifier document_identifier = 1;
+    ElementIdentifier document_identifier = 1;																		//TYPEDEF_REFERENCE_CHANGE
     // The test property to set
     TestProperty test_property = 2;
 }
@@ -224,7 +228,7 @@ message SetTestPropertyResponse {
 // Request object for removing a specific test property
 message RemoveTestPropertyRequest {
     // The id for the logging specification document
-    ElementIdentifier document_identifier = 1;
+    ElementIdentifier document_identifier = 1;																		//TYPEDEF_REFERENCE_CHANGE
     // The name of the test property to remove
     string property_name = 2;
 }
@@ -236,7 +240,7 @@ message RemoveTestPropertyResponse {
 // Request object for getting the resolved log file base path
 message GetResolvedLogFileBasePathRequest {
     // The id for the logging specification document
-    ElementIdentifier document_identifier = 1;
+    ElementIdentifier document_identifier = 1;																		//TYPEDEF_REFERENCE_CHANGE
 }
 
 // Response object for a get resolved log file base path request
@@ -248,7 +252,7 @@ message GetResolvedLogFileBasePathResponse {
 // Request object for getting the resolved log file name
 message GetResolvedLogFileNameRequest {
     // The id for the logging specification document
-    ElementIdentifier document_identifier = 1;
+    ElementIdentifier document_identifier = 1;																		//TYPEDEF_REFERENCE_CHANGE
 }
 
 // Response object for a get resolved log file name request
@@ -263,7 +267,7 @@ message ProjectIdentifier {
     string project_id = 1;
 }
 
-message ElementIdentifier {
+message ElementIdentifier {																							//TYPEDEF
     // The automation id for a server side Project.
     string project_id = 1;
     // The string that identifies the file in the project containing the desired element.
@@ -481,7 +485,7 @@ message GetDoubleChannelValueRequest {
 // Response object for getting a channel value
 message GetDoubleChannelValueResponse {
     // The timestamp indicating when the channel value occurred
-    Timestamp value_timestamp = 1;
+    Timestamp value_timestamp = 1;																	//TYPEDEF_REFERENCE_CHANGE
     // The value of the channel at the timestamp
     double channel_value = 2;
 }
@@ -532,7 +536,7 @@ message GetDataRateRequest {
     // The id for the channel specification document
     ElementIdentifier document_identifier = 1;
     // The data rate level (Slow, Medium, Fast, Counter, Digital, OnDemand)
-    DataRateLevel data_rate_level = 2;
+    DataRateLevel data_rate_level = 2;															//TYPEDEF_REFERENCE_CHANGE
 }
 
 // Response object for getting the data rate
@@ -546,7 +550,7 @@ message SetDataRateRequest {
     // The id for the channel specification document
     ElementIdentifier document_identifier = 1;
     // The data rate level (Slow, Medium, Fast, Counter, Digital, OnDemand)
-    DataRateLevel data_rate_level = 2;
+    DataRateLevel data_rate_level = 2;															//TYPEDEF_REFERENCE_CHANGE
     // The value of the data rate to set
     double data_rate = 3;
 }
@@ -562,7 +566,7 @@ message GetDataRateLevelRequest {
 // Response object for getting the data rate of a specific channel
 message GetDataRateLevelResponse {
     // The data rate level
-    DataRateLevel data_rate_level = 1;
+    DataRateLevel data_rate_level = 1;															//TYPEDEF_REFERENCE_CHANGE
 }
 
 // Request object for setting the data rate level of a specific channel
@@ -572,7 +576,7 @@ message SetDataRateLevelRequest {
     // The name of the channel in the subsystem to set the data rate to
     string channel_name = 2;
     // The data rate level to set
-    DataRateLevel data_rate_level = 3;
+    DataRateLevel data_rate_level = 3;															//TYPEDEF_REFERENCE_CHANGE
 }
 
 // Request object for getting the actual data rate of a specific channel
@@ -589,7 +593,7 @@ message GetActualDataRateResponse {
     double data_rate = 1;
 }
 
-message Timestamp {
+message Timestamp {																				//TYPEDEF	//This copied from github to replace online referencing Location: https://github.com/protocolbuffers/protobuf/blob/main/src/google/protobuf/timestamp.proto
   // Represents seconds of UTC time since Unix epoch
   // 1970-01-01T00:00:00Z. Must be from 0001-01-01T00:00:00Z to
   // 9999-12-31T23:59:59Z inclusive.
@@ -602,7 +606,7 @@ message Timestamp {
   int32 nanos = 2;
 }
 
-enum DataRateLevel {
+enum DataRateLevel {																			//TYPEDEF
   DATA_RATE_LEVEL_NONE = 0;
   // The slow analog input rate
   DATA_RATE_LEVEL_SLOW = 1;
