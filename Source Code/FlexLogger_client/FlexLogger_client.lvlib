@@ -51,6 +51,18 @@
 		<Item Name="flexlogger_GetElapsedTestTimeResponse" Type="Folder">
 			<Item Name="flexlogger_GetElapsedTestTimeResponse.ctl" Type="VI" URL="../RPC Messages/flexlogger_GetElapsedTestTimeResponse.ctl"/>
 		</Item>
+		<Item Name="flexlogger_GetLogFileDescriptionRequest" Type="Folder">
+			<Item Name="flexlogger_GetLogFileDescriptionRequest.ctl" Type="VI" URL="../RPC Messages/flexlogger_GetLogFileDescriptionRequest.ctl"/>
+		</Item>
+		<Item Name="flexlogger_GetLogFileDescriptionResponse" Type="Folder">
+			<Item Name="flexlogger_GetLogFileDescriptionResponse.ctl" Type="VI" URL="../RPC Messages/flexlogger_GetLogFileDescriptionResponse.ctl"/>
+		</Item>
+		<Item Name="flexlogger_SetLogFileDescriptionRequest" Type="Folder">
+			<Item Name="flexlogger_SetLogFileDescriptionRequest.ctl" Type="VI" URL="../RPC Messages/flexlogger_SetLogFileDescriptionRequest.ctl"/>
+		</Item>
+		<Item Name="flexlogger_SetTestPropertiesRequest" Type="Folder">
+			<Item Name="flexlogger_SetTestPropertiesRequest.ctl" Type="VI" URL="../RPC Messages/flexlogger_SetTestPropertiesRequest.ctl"/>
+		</Item>
 		<Item Name="flexlogger_GetLogFileBasePathRequest" Type="Folder">
 			<Item Name="flexlogger_GetLogFileBasePathRequest.ctl" Type="VI" URL="../RPC Messages/flexlogger_GetLogFileBasePathRequest.ctl"/>
 		</Item>
@@ -285,6 +297,12 @@
 			<Item Name="LoggingSpecificationDocument SetLogFileName" Type="Folder">
 				<Item Name="LoggingSpecificationDocument SetLogFileName.vi" Type="VI" URL="../RPC Service/LoggingSpecificationDocument/LoggingSpecificationDocument SetLogFileName.vi"/>
 			</Item>
+			<Item Name="LoggingSpecificationDocument GetLogFileDescription" Type="Folder">
+				<Item Name="LoggingSpecificationDocument GetLogFileDescription.vi" Type="VI" URL="../RPC Service/LoggingSpecificationDocument/LoggingSpecificationDocument GetLogFileDescription.vi"/>
+			</Item>
+			<Item Name="LoggingSpecificationDocument SetLogFileDescription" Type="Folder">
+				<Item Name="LoggingSpecificationDocument SetLogFileDescription.vi" Type="VI" URL="../RPC Service/LoggingSpecificationDocument/LoggingSpecificationDocument SetLogFileDescription.vi"/>
+			</Item>
 			<Item Name="LoggingSpecificationDocument GetTestProperties" Type="Folder">
 				<Item Name="LoggingSpecificationDocument GetTestProperties.vi" Type="VI" URL="../RPC Service/LoggingSpecificationDocument/LoggingSpecificationDocument GetTestProperties.vi"/>
 			</Item>
@@ -293,6 +311,9 @@
 			</Item>
 			<Item Name="LoggingSpecificationDocument SetTestProperty" Type="Folder">
 				<Item Name="LoggingSpecificationDocument SetTestProperty.vi" Type="VI" URL="../RPC Service/LoggingSpecificationDocument/LoggingSpecificationDocument SetTestProperty.vi"/>
+			</Item>
+			<Item Name="LoggingSpecificationDocument SetTestProperties" Type="Folder">
+				<Item Name="LoggingSpecificationDocument SetTestProperties.vi" Type="VI" URL="../RPC Service/LoggingSpecificationDocument/LoggingSpecificationDocument SetTestProperties.vi"/>
 			</Item>
 			<Item Name="LoggingSpecificationDocument RemoveTestProperty" Type="Folder">
 				<Item Name="LoggingSpecificationDocument RemoveTestProperty.vi" Type="VI" URL="../RPC Service/LoggingSpecificationDocument/LoggingSpecificationDocument RemoveTestProperty.vi"/>

@@ -119,17 +119,50 @@ service LoggingSpecificationDocument {
     // RPC call to set the log file name
     rpc SetLogFileName(SetLogFileNameRequest) returns (SetLogFileNameResponse) {}
     // RPC call to get all test properties
+	// RPC call to get the description
+    rpc GetLogFileDescription(GetLogFileDescriptionRequest) returns (GetLogFileDescriptionResponse) {}
+    // RPC call to set the description
+    rpc SetLogFileDescription(SetLogFileDescriptionRequest) returns (Empty) {}
     rpc GetTestProperties(GetTestPropertiesRequest) returns (GetTestPropertiesResponse) {}
     // RPC call to get a specific test property
     rpc GetTestProperty(GetTestPropertyRequest) returns (GetTestPropertyResponse) {}
     // RPC call to set a specific test property
     rpc SetTestProperty(SetTestPropertyRequest) returns (SetTestPropertyResponse) {}
-    // RPC call to remove a specific test property
+    // RPC call to set all test properties
+    rpc SetTestProperties(SetTestPropertiesRequest) returns (Empty) {}
+	// RPC call to remove a specific test property
     rpc RemoveTestProperty(RemoveTestPropertyRequest) returns (RemoveTestPropertyResponse) {}
     // RPC call to get the resolved log file base path
     rpc GetResolvedLogFileBasePath(GetResolvedLogFileBasePathRequest) returns (GetResolvedLogFileBasePathResponse) {}
     // RPC call to get the resolved log file name
     rpc GetResolvedLogFileName(GetResolvedLogFileNameRequest) returns (GetResolvedLogFileNameResponse) {}
+}
+
+message GetLogFileDescriptionRequest {
+    // The id for the logging specification document
+    ElementIdentifier document_identifier = 1;                                                                      //TYPEDEF_REFERENCE_CHANGE
+}
+
+// Response object for a get log file description request
+message GetLogFileDescriptionResponse {
+    // The log file description
+    string log_file_description = 1;
+}
+
+// Request object for setting the log file description
+message SetLogFileDescriptionRequest {
+    // The id for the logging specification document
+    ElementIdentifier document_identifier = 1;                                                                      //TYPEDEF_REFERENCE_CHANGE
+    // The log file description
+    string log_file_description = 2;
+}
+
+// Request object for setting all test properties
+message SetTestPropertiesRequest {
+    // The id for the logging specification document
+    ElementIdentifier document_identifier = 1;                                                                      //TYPEDEF_REFERENCE_CHANGE
+    // The test properties for the logging specification document. Can be empty.
+    repeated TestProperty test_properties = 2;
 }
 
 // Request object for getting the log file base path

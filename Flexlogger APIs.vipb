@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-02-21 00:56:31" Modified_Date="2023-07-25 21:35:19" Creator="NaveenKumar" Comments="" ID="f69552b1e725c6caceb96256fec4b9ca">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-02-21 00:56:31" Modified_Date="2023-07-25 23:21:55" Creator="NaveenKumar" Comments="" ID="cd8c850a6ef92ab362489bef6f746dbc">
   <Library_General_Settings>
     <Package_File_Name>Viviota_lib_Flexlogger_APIs</Package_File_Name>
-    <Library_Version>1.0.0.1</Library_Version>
+    <Library_Version>1.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -35,7 +35,11 @@
       <Copyright/>
       <Packager>Viviota</Packager>
       <URL/>
-      <Release_Notes>version 1.0.0.1
+      <Release_Notes>version 1.0.0.2
+*Added Get/Set Log File Description &amp; Write Multiple Properties
+
+
+version 1.0.0.1
 
 * added gRPC APIs to automate the following flexlogger operations. 
 ** Project - Open , Close, Get Current
@@ -404,7 +408,7 @@
         <Path>Source Code\FlexLogger_gRPC\Simple Tester.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BEBB3584DECDC51A4A07D4EC43D23A41</GUID>
+      <GUID>456F35CEE9248E4AFED20087C28D7DB4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -439,7 +443,7 @@
         <Path>Source Code\FlexLogger_gRPC\Overrides\Open Logging Specification Document.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB9586349846D8B3E74369FD3924C646</GUID>
+      <GUID>CB72BE4D5B1BBEB08B02E3CFF83367ED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -502,7 +506,7 @@
         <Path>Source Code\FlexLogger_gRPC\Overrides\Get Current Project.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>94285A75C5EEB407C428598B1BE12757</GUID>
+      <GUID>07D2F3E55F3F111D55A3B5273D56244D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -593,7 +597,7 @@
         <Path>Source Code\FlexLogger_gRPC\Overrides\Stop Test.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6B1849C3B0703E46202A9BEFD5122717</GUID>
+      <GUID>0D1F2A70C01694405466536519CCA9D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -601,7 +605,7 @@
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>1</Height_Row>
-        <Width_Col.>4</Width_Col.>
+        <Width_Col.>5</Width_Col.>
       </Size>
       <_256_Color_Icon>0000052E002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000002BF0000028B000000010007002000180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000000000000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000001C0000241AC989B09C955D25D895912518890D14D00000001002900000012000000020000000D00CCCCFF000100000000000A000000080019000000200020002800000217000001E3001900050020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C00006C00006C00006C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000001FFAAA4E5FFAAAA4BFFAAAA4FFFEBAA4BFF49244BFF000001FF</_256_Color_Icon>
       <BW_Color_Icon>00000000</BW_Color_Icon>
@@ -650,7 +654,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Source Code\FlexLogger_gRPC\Overrides\Write Property.vi</Path>
@@ -664,13 +668,27 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>4</Column>
+          <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Source Code\FlexLogger_gRPC\Overrides\Remove Test Property.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>103A66742322754679DAB613B765D20E</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Write Multiple Properties.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source Code\FlexLogger_gRPC\Overrides\Write Multiple Properties.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>15D66997B90A5181AE25A969790EA120</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -713,13 +731,41 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>3</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Source Code\FlexLogger_gRPC\Overrides\Set DataRateLevel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D4100C9B2756EDD6C1D7619B03ED1A3A</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Log File Description.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source Code\FlexLogger_gRPC\Overrides\Get Log File Description.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Set Log File Description.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Source Code\FlexLogger_gRPC\Overrides\Set Log File Description.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>3CF1B529EC7053FF810B8E0457AF5894</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -768,7 +814,7 @@
         <Path>Source Code\FlexLogger_gRPC\Overrides\Set Log File And Paths.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56983FD982DB2D565C970D50A5E864DE</GUID>
+      <GUID>6ED45E6BE241308760EC68C46FAE3702</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -845,7 +891,7 @@
         <Path>FlexLogger_client\RPC Service</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ED41EEDBCCF2645C773B6F3C208C0D20</GUID>
+      <GUID>A61BF7967F19B3A13CFE21CAC9CF41D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -894,7 +940,7 @@
         <Path>Source Code\FlexLogger_client\Client API\Destroy Client.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F234D837865DD7CF2A2EF8B120F6739</GUID>
+      <GUID>06639F33C5068A17B00DB842FBDC6F3E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -929,7 +975,7 @@
         <Path>Source Code\FlexLogger_client\RPC Messages\Register gRPC Messages.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E47EA7F0C60B557F28027B9C2FCDA59</GUID>
+      <GUID>1B69E15A1B9FEB12D64574668B2DF4FC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>7</Parent_Palette_Index>
@@ -1034,7 +1080,7 @@
         <Path>FlexLogger_client\RPC Service\TestSession</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC5A7E1ED8824194E3195B8A22C8099F</GUID>
+      <GUID>71F7D08A210BBB58536543C57E98E37C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1097,7 +1143,7 @@
         <Path>Source Code\FlexLogger_client\RPC Service\Application\Application GetPreferencesDirectory.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37B12CFB90B7A28CF7C74B761B19CFB3</GUID>
+      <GUID>64EB035CB741C2CBACB2E42F28FB1A5D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1258,7 +1304,7 @@
         <Path>Source Code\FlexLogger_client\RPC Service\ChannelSpecificationDocument\ChannelSpecificationDocument SetDoubleChannelValue.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4402CEEFB0511C7E23AB1D2A6B97F7C2</GUID>
+      <GUID>B71B7C52294AD55FA738FDE7105F7602</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1307,7 +1353,7 @@
         <Path>Source Code\FlexLogger_client\RPC Service\FlexLoggerApplication\FlexLoggerApplication OpenProject.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D7850BAF590855E54C085CF02F6B9C1</GUID>
+      <GUID>9BD8D98CB68E576F1E4279CA3414A0E7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1468,7 +1514,7 @@
         <Path>Source Code\FlexLogger_client\RPC Service\LoggingSpecificationDocument\LoggingSpecificationDocument SetTestProperty.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63593DF67CCA05FAC4D5F08803C1B446</GUID>
+      <GUID>15A427D910FFDD50D75FA948B4EF3F84</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1587,7 +1633,7 @@
         <Path>Source Code\FlexLogger_client\RPC Service\Project\Project Save.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F4F89D328A1B76DFCA3470679954E77</GUID>
+      <GUID>FC3CFBF280FB4FA348B166360F01657B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>10</Parent_Palette_Index>
@@ -1706,7 +1752,7 @@
         <Path>Source Code\FlexLogger_client\RPC Service\TestSession\TestSession Stop.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32FD7BB7967E5C3C1CC4AF0612C710B0</GUID>
+      <GUID>047512F820D72366EA8F0CFE8D13CEB7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
