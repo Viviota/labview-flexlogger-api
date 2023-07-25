@@ -116,7 +116,7 @@
 				<Property Name="TgtF_companyName" Type="Str">viviota.Inc</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FlexLogger_gRPC</Property>
 				<Property Name="TgtF_internalName" Type="Str">FlexLogger_gRPC</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 viviota.Inc</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright c 2023 viviota.Inc</Property>
 				<Property Name="TgtF_productName" Type="Str">FlexLogger_gRPC</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{4C8973BE-9DBF-4443-A558-AD361466971C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">FlexLogger_gRPC.lvlibp</Property>
@@ -171,7 +171,7 @@
 				<Property Name="TgtF_companyName" Type="Str">viviota.Inc</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">FlexLogger_gRPCx64</Property>
 				<Property Name="TgtF_internalName" Type="Str">FlexLogger_gRPCx64</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 viviota.Inc</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright c 2023 viviota.Inc</Property>
 				<Property Name="TgtF_productName" Type="Str">FlexLogger_gRPCx64</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D7C5AB8A-5E00-4CAF-8A32-4C2BDE1919CB}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">FlexLogger_gRPC.lvlibp</Property>
