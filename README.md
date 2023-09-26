@@ -5,24 +5,25 @@ The automation API supports modifying the configuration of existing FlexLogger p
 ## Requirements
 **viv-flexlogger-apis** has the following requirements:
 - FlexLogger 2023 Q2+
-- LabVIEW 2020+
-- GRPC Modules from NI (Installed along with this package).
+- LabVIEW 2020+ (32 or 64 bit)
+- GRPC Modules from NI.
 - VIPM (to Install package)
 
 ## Installation
 - Install viviota_lib_flexlogger_apis-1.0.0.1.vip using VIPM.
+- the gRPC modules can be found here: https://github.com/ni/grpc-labview, and this toolkit has been tested with v1.0.0.1 & v1.0.0.7
    
-  **Note**: It installs NI gRPC modules along with this package as dependencies.
+  **Note**: the NI gRPC toolkit is still tagged as pre-release, so is not approved for production code
  
 ## Palette
-- After Installing the package, APIs can be found in the following Location.
+- After Installing the package, API can be found in the following Location.
    
-   `(Viviota >> FlexLogger APIs)`
+   `(Viviota >> FlexLogger API)`
   
 
     ![Palette](Img/Palette.png "Palette")
 
-## Using the FlexLogger APIs
+## Using the FlexLogger API
 
 - Use `(Viviota>>Flexlogger APIs>>Init.vi)` to connect with the Flex logger application in the local system.
 - Then open the existing project using `(Viviota>> Flexlogger APIs>>Project>>Open Flexlogger project.vi)`.
